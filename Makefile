@@ -15,7 +15,7 @@ endif
 
 # C++ specific options here (added to USE_OPT).
 ifeq ($(USE_CPPOPT),)
-  USE_CPPOPT = -std=c++14 -fno-rtti -fno-non-call-exceptions -fno-exceptions \
+  USE_CPPOPT = -std=c++1z -fno-rtti -fno-non-call-exceptions -fno-exceptions \
                -fno-unwind-tables -fno-common -findirect-inlining \
                -fsingle-precision-constant -fno-threadsafe-statics
 endif
